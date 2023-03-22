@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-width: 700px;
+    font-size: xx-large;
+    background-image:url(https://images.unsplash.com/photo-1550522667-09c9bdb293a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2VlfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-attachment:fixed;
+    background-size:cover
+}
+.table{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 0px 50px 50px 50px;
+}
+.container h1{
+    text-align: center;
+    color: teal;
+}
+.table table, .table td ,.table td, .table tr,.table th{
+    border: 2px solid;
+    border-collapse: collapse;
+    padding: 20px;
+}
+.table td{
+    min-width: 300px;
+}

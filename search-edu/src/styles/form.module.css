@@ -1,0 +1,43 @@
+.container{
+    font-family: sans-serif;
+    border: 2px solid;
+    height: 100vh;
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image:url(https://images.unsplash.com/photo-1550522667-09c9bdb293a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2VlfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-attachment:fixed;
+    background-size:cover */
+}
+
+.form{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 350px;
+    padding: 30px;
+    background-color: white;
+}
+.form>h1{
+    text-align: center;
+    color: teal;
+}
+.text{
+    width: 100%;
+    height: 30px;
+}
+.label{
+    font-size: large;
+    font-weight: bold;
+}
+.btn{
+    width: 100%;
+    background-color: teal;
+    border: none;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.options{
+    margin-left: 50px;
+}
